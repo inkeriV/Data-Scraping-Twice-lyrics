@@ -171,7 +171,7 @@ df.to_csv('twice_lyrics_dataset.csv', sep='\t')
 #%%
 # Some examples:
 
-# English lyrics of Cheer up
+# English lyrics for Cheer up
 print(df['English_lyrics'].iloc[6])
 
 # Korean lyrics for TT
