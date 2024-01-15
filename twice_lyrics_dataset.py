@@ -165,7 +165,7 @@ for a in range(0,len(all_albums)):
         print('Songs left:', number_of_songs - len(df))
 
 #%%
-
+df['Year'] = df['Year'].astype('Int32')
 df.to_csv('twice_lyrics_dataset.csv', sep='\t')
 
 #%%
